@@ -7,9 +7,6 @@
 # Vim / Notepad++ temp files
 *~
 
-# Rez build output
-build/
-
 # Coverage output
 .coverage
 

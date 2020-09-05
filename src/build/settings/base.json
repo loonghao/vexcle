@@ -1,0 +1,37 @@
+{
+  "app_name": "vexcle",
+  "author": "Hal Long",
+  "main_module": "src/main/python/app.py",
+  "version": "1.0.0",
+  "excel_file_name": "shot_info.xlsx",
+  "support_formats": [
+    "mov",
+    "mp4",
+    "avi",
+    "mkv"
+  ],
+  "public_settings": [
+    "excel_file_name",
+    "support_formats",
+    "headers"
+  ],
+  "import_hide": [
+    "vexcle"
+  ],
+  "headers": [
+    "thumbnail",
+    "duration",
+    "fps",
+    "resolution",
+    "frame_range",
+    "filename"
+  ],
+  "hidden_imports": [
+    "vexcle.headers.thumbnail",
+    "vexcle.headers.duration",
+    "vexcle.headers.fps",
+    "vexcle.headers.resolution",
+    "vexcle.headers.frame_range",
+    "vexcle.headers.filename"
+  ]
+}
