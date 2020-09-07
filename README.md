@@ -23,17 +23,27 @@ Features
 Main Window
 ===========
 
-![Alt text](/src/main/resources/base/main_window.png "main_window")
+![Alt text](/src/main/resources/usd_by_readme/main_window.png "main_window")
 
 Build exe and installer via fbs
 ===============================
 
+Create exe application.
+
 ```shell script
 fbs freeze
 ```
+![Alt text](/src/main/resources/usd_by_readme/run_fbs_freeze.png "run_fbs_freeze")
+
+
+Build installer.
+
 ```shell script
-fns installer
+fbs installer
 ```
+![Alt text](/src/main/resources/usd_by_readme/run_fbs_installer.png "run_fbs_installer")
+
+
 More details docs about [`fbs`](https://build-system.fman.io/manual/)
 
 
