@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://i.imgur.com/KYMYNzG.png" </a>
+</p>
+
 VEXCLE
 ------
 VEXCLE is a standalone program written using the 
@@ -9,9 +13,6 @@ thumbnail and other information from the video and output it to an excel file
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
 
-<p align="center">
-<img src="https://i.imgur.com/KYMYNzG.png" </a>
-</p>
 
 Features
 ========
