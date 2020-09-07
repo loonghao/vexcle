@@ -10,7 +10,7 @@ thumbnail and other information from the video and output it to an excel file
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
 
 <p align="center">
-<img src="https://github.com/loonghao/vexcle/tree/master/src/main/resources/base/VEXCLE.png"</a>
+<img src="https://imgur.com/KYMYNzG"</a>
 </p>
 
 Features
