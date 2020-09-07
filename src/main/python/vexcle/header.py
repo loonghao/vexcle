@@ -34,7 +34,7 @@ class AbstractHeader:
         """The custom header write function.
 
         Args:
-            worksheet (yuki.excel_writer.ExcelWriter): The ExcelWriter
+            worksheet (vexcle.excel_writer.ExcelWriter): The ExcelWriter
                 instance.
             row (int): Number of row in excel.
             column (int): Number of column in excel.
