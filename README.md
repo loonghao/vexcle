@@ -9,7 +9,9 @@ thumbnail and other information from the video and output it to an excel file
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
 
-![icon](https://github.com/loonghao/vexcle/tree/master/src/main/resources/base/VEXCLE.png)
+<p align="center">
+<img src="https://github.com/loonghao/vexcle/tree/master/src/main/resources/base/VEXCLE.png"</a>
+</p>
 
 Features
 ========
