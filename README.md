@@ -1,6 +1,6 @@
-Vexcel
-----
-Vexcel is a standalone program written using the 
+VEXCLE
+------
+VEXCLE is a standalone program written using the 
 [FBS](https://www.learnpyqt.com/courses/packaging-and-distribution/packaging-pyqt5-apps-fbs/) 
 framework that can help us analyze the resolution, 
 thumbnail and other information from the video and output it to an excel file
@@ -9,13 +9,13 @@ thumbnail and other information from the video and output it to an excel file
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
 
-![icon](https://github.com/loonghao/Yuki/blob/master/src/yuki/resources/images/yuki.png)
+![icon](https://github.com/loonghao/vexcle/tree/master/src/main/resources/base/VEXCLE.png)
 
 Features
 ========
 - Analyze videos.
 - Export thumbnails.
-- Save to ExcelWriter.
+- Save to Excel file.
 
 
 Main Window
