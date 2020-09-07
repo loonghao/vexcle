@@ -10,7 +10,7 @@ thumbnail and other information from the video and output it to an excel file
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
 
 <p align="center">
-<img src="https://imgur.com/KYMYNzG"</a>
+<img src="https://i.imgur.com/KYMYNzG.png" </a>
 </p>
 
 Features
