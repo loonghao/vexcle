@@ -1,7 +1,7 @@
 "app_name": "vexcle"
 "author": "Hal Long"
 "main_module": "src/main/python/app.py"
-"app_version": "1.0.0"
+"app_version": "2.0.0"
 "excel_file_name": "shot_info.xlsx"
 "support_formats": [
   "mov",
