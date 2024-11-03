@@ -49,8 +49,8 @@ jobs:
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
-        name: portable_rez-${{ steps.get_tag_name.outputs.version }}-${{ matrix.target.triple }}
-        path: .zip/portable_rez-${{ steps.get_tag_name.outputs.version }}-${{ matrix.target.triple }}.zip
+        name: vexcle-${{ steps.get_tag_name.outputs.version }}-${{ matrix.target.triple }}
+        path: .zip/vexcle-${{ steps.get_tag_name.outputs.version }}-${{ matrix.target.triple }}.zip
 
   upload-artifact:
     needs: deploy
