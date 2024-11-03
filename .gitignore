@@ -18,3 +18,4 @@ target/*
 /run_pycharm.bat
 /.nox/
 /build/
+/coverage.xml

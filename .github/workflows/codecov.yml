@@ -1,8 +1,8 @@
-ame: Codecov
+name: Codecov
 on: [push, pull_request]
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: windows-2022
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -22,7 +22,7 @@ jobs:
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v4
         with:
-          slug: loonghao/maya_umbrella
+          slug: loonghao/vexcle
           files: 'coverage.xml'
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
