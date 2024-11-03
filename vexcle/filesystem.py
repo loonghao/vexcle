@@ -1,6 +1,7 @@
 # Import built-in modules
 import os
 from pathlib import Path
+from typing import Dict
 
 # Import third-party modules
 import yaml
@@ -40,11 +41,11 @@ def this_root() -> Path:
     return Path(__file__).resolve().parent
 
 
-def read_config():
+def read_config() -> Dict:
     config_file = get_resource_path("config.yaml")
     with open(config_file) as f:
         return yaml.load(f, Loader=yaml.FullLoader)
 
 
-def get_resource_path(*paths):
+def get_resource_path(*paths) -> str:
     return os.path.join(this_root(), "resources", *paths)

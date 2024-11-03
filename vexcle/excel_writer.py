@@ -6,7 +6,8 @@ from xlsxwriter.exceptions import FileCreateError
 
 
 class ExcelWriter(object):
-    def __init__(self, excel_file_name):
+    def __init__(self, excel_file_name, context):
+        self._context = context
         self._workbook = xlsxwriter.Workbook(excel_file_name)
         self.worksheet = self._workbook.add_worksheet()
         self.worksheet.set_default_row(10)
@@ -21,7 +22,7 @@ class ExcelWriter(object):
 
     @property
     def bold(self):
-        return self._workbook.add_format({"bold": True})
+        return self._workbook.add_format(self._context.excel_workbook_format)
 
     def __enter__(self):
         return self
@@ -46,11 +47,4 @@ class ExcelWriter(object):
 
     def insert_image(self, row_num, column, image_path):
         self.set_row(row_num)
-        self.worksheet.insert_image(row_num, column,
-                                    image_path, )
-        # {
-        #     "x_scale": 0.9,
-        #     'x_offset': 10,
-        #     'y_offset': 10,
-        #     "y_scale": 0.9
-        # })
+        self.worksheet.insert_image(row_num, column, image_path)
