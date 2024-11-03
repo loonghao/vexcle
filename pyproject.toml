@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "vexcle"
 version = "1.0.0"
-description = "VEXCLE is a standalone program written using the FBS framework that can help us analyze the resolution, thumbnail and other information from the video and output it to an excel file"
-authors = ["hallong <hallong@tencent.com>"]
+description = "VEXCLE is a standalone program can help us analyze the resolution, thumbnail and other information from the video and output it to an excel file"
+authors = ["longhao <hal.long@outlook.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -19,7 +19,7 @@ version = "1.0.0"
 tag_format = "v$version"
 version_files = [
     "pyproject.toml:version",
-    "src/build/settings/base.json:version",
+    "vexcle/resources/config.yaml:version",
 ]
 
 [build-system]
