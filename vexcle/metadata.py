@@ -18,9 +18,15 @@ class VideoMetadata:
         cls.data = ffmpeg.probe(video_file, cmd=filesystem.get_resource_path("bin", "ffprobe.exe"))
         return cls()
 
+    @staticmethod
+    def convert_frame_rate(frame_rate):
+        numerator, denominator = map(int, frame_rate.split("/"))
+        fps = numerator / denominator
+        return  round(fps)
+
     @property
     def fps(self):
-        return int(self.video["r_frame_rate"].split("/")[0])
+        return self.convert_frame_rate(self.video["r_frame_rate"])
 
     @property
     def frame_count(self):
