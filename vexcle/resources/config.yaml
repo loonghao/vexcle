@@ -1,6 +1,6 @@
 app_name: VEXCLE
 author: Long Hao
-app_version: "2.1.0"
+app_version: "2.2.0"
 excel_file_name: "shot_info.xlsx"
 support_formats: [
   "mov",

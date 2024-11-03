@@ -1,3 +1,13 @@
+## v2.2.0 (2024-11-03)
+
+### Feat
+
+- **metadata**: add frame rate conversion method and update fps property
+
+### Fix
+
+- **controller**: Pass context to ExcelWriter in _export_to_excel method
+
 ## v2.1.0 (2024-11-03)
 
 ### Feat
