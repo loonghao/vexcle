@@ -50,7 +50,7 @@ class Controller(object):
     @ui_helper.progress_bar
     def _export_to_excel(self):
         excel_file_name = self.model.get_excel_file_path(self._drag_path)
-        with ExcelWriter(excel_file_name) as worksheet:
+        with ExcelWriter(excel_file_name, self._context) as worksheet:
             list(
                 worksheet.write(0, column_index, header.NAME)
                 for column_index, header in enumerate(self.model.headers)
