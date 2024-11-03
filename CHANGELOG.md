@@ -1,3 +1,9 @@
+## v2.1.0 (2024-11-03)
+
+### Feat
+
+- add support for excel workbook format and context property
+
 ## v2.0.1 (2024-11-03)
 
 ### Refactor

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "vexcle"
-version = "2.0.1"
+version = "2.1.0"
 description = "VEXCLE is a standalone program can help us analyze the resolution, thumbnail and other information from the video and output it to an excel file"
 authors = ["longhao <hal.long@outlook.com>"]
 readme = "README.md"
@@ -15,7 +15,7 @@ pyyaml = "^6.0.2"
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "2.0.1"
+version = "2.1.0"
 tag_format = "v$version"
 version_files = [
     "pyproject.toml:version",
