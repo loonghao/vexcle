@@ -19,3 +19,4 @@ target/*
 /.nox/
 /build/
 /coverage.xml
+/.zip/

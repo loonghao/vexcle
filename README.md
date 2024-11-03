@@ -4,13 +4,13 @@
 
 VEXCLE
 ------
-VEXCLE is a standalone program can help us analyze the resolution, 
+VEXCLE is a standalone program can help us analyze the resolution,
 thumbnail and other information from the video and output it to an excel file
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END --> 
-
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![codecov](https://codecov.io/gh/loonghao/vexcle/graph/badge.svg?token=BTQ1KN150P)](https://codecov.io/gh/loonghao/vexcle)
 
 Features
 ========
