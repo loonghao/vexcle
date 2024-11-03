@@ -24,29 +24,24 @@ Features
 Main Window
 ===========
 
-![Alt text](/src/main/resources/usd_by_readme/main_window.png "main_window")
+![Alt text](/usd_by_readme/main_window.png "main_window")
 
-Build exe and installer via fbs
+
+Setup development environment
+=============================
+```shell script
+pip install -r requirements-dev.txt
+```
+
+
+Build exe via Nox
 ===============================
 
 Create exe application.
 
 ```shell script
-fbs freeze
+nox -s build-exe
 ```
-![Alt text](/src/main/resources/usd_by_readme/run_fbs_freeze.png "run_fbs_freeze")
-
-
-Build installer.
-
-```shell script
-fbs installer
-```
-![Alt text](/src/main/resources/usd_by_readme/run_fbs_installer.png "run_fbs_installer")
-
-
-More details docs about [`fbs`](https://build-system.fman.io/manual/)
-
 
 ## Contributors ✨
 

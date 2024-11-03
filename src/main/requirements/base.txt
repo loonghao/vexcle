@@ -1,5 +1,0 @@
-fbs==0.8.6
-PyInstaller==3.4
-PySide2==5.14.1
-XlsxWriter==1.2.0
-ffmpeg-python==0.2.0
