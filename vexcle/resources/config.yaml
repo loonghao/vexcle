@@ -1,0 +1,19 @@
+"app_name": "vexcle"
+"author": "Hal Long"
+"main_module": "src/main/python/app.py"
+"app_version": "1.0.0"
+"excel_file_name": "shot_info.xlsx"
+"support_formats": [
+  "mov",
+  "mp4",
+  "avi",
+  "mkv"
+]
+headers: [
+  "thumbnail",
+  "duration",
+  "fps",
+  "resolution",
+  "frame_range",
+  "filename"
+]
