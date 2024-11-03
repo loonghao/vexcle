@@ -71,18 +71,13 @@ class VideoMetadata:
         return super().__getattribute__(item)
 
     @property
-    def width(self):
+    def width(self) -> int:
         return self.video["width"]
 
     @property
-    def height(self):
+    def height(self) -> int:
         return self.video["height"]
 
     @property
-    def duration(self):
+    def duration(self) -> float:
         return self.video["duration"]
-
-
-if __name__ == "__main__":
-    data = VideoMetadata.export_thumbnail(r"C:\aaa\1.MP4")
-    print(data)

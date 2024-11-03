@@ -32,6 +32,11 @@ class Context:
     def support_formats(self):
         return self.data["support_formats"]
 
+
+    @property
+    def excel_workbook_format(self):
+        return self.data["excel_workbook_format"]
+
     @property
     def style_file(self):
         return get_resource_path("styles.qss")
