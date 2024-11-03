@@ -4,9 +4,7 @@
 
 VEXCLE
 ------
-VEXCLE is a standalone program written using the 
-[FBS](https://www.learnpyqt.com/courses/packaging-and-distribution/packaging-pyqt5-apps-fbs/) 
-framework that can help us analyze the resolution, 
+VEXCLE is a standalone program can help us analyze the resolution, 
 thumbnail and other information from the video and output it to an excel file
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
