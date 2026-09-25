@@ -13,15 +13,6 @@ pyside6 = "^6.8.0.2"
 pyyaml = "^6.0.2"
 
 
-[tool.commitizen]
-name = "cz_conventional_commits"
-version = "2.2.0"
-tag_format = "v$version"
-version_files = [
-    "pyproject.toml:version",
-    "vexcle/resources/config.yaml:version",
-]
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
